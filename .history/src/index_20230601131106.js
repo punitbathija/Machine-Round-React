@@ -4,7 +4,6 @@ import Counter from "./components/counter";
 import "./index.css";
 import ProgressBar from "./components/ProgressBar";
 import CurrencyCoverter from "./components/CurrencyCoverter";
-import TempratureConveter from "./components/TempratureConveter";
 // import FetchApi from "./components/FetchApi";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -14,7 +13,6 @@ root.render(
     {/* <Counter /> */}
     {/* <FetchApi /> */}
     {/* <ProgressBar /> */}
-    {/* <CurrencyCoverter /> */}
-    <TempratureConveter />
+    <CurrencyCoverter />
   </>
 );

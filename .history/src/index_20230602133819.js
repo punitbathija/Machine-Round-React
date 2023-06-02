@@ -5,8 +5,8 @@ import "./index.css";
 import ProgressBar from "./components/ProgressBar";
 import CurrencyCoverter from "./components/CurrencyCoverter";
 import TempratureConveter from "./components/TempratureConveter";
-// import Tc from "./components/Tc";
-import Stopwatch from "./components/Stopwatch";
+import Tc from "./components/Tc";
+import Stopwatch from "./components/stopwatch";
 // import FetchApi from "./components/FetchApi";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
